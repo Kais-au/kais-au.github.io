@@ -1,0 +1,15 @@
+////////// % FONT IMPORTS % \\\\\\\\\\
+ 
+@font-face {
+    font-family: JetBrainsMonoNL;
+    src: url(../assets/fonts/JetBrains\ Mono\ NL\ Regular\ Nerd\ Font\ Complete.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+////////// # FONT # \\\\\\\\\\
+$primFont: JetBrainsMonoNL;
+$secFont: Arial, Helvetica, sans-serif;
