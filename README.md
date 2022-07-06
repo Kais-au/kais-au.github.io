@@ -45,6 +45,6 @@
 
 ---
 
-## **Initial Project Completion**
+## **Portfolio Changelist**
 
-_03/07/2022_ 🚀
+Initial commit _03/07/2022_ 🚀
