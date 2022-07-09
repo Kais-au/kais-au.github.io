@@ -168,9 +168,8 @@ footer,
   display: flex;
   flex-flow: row nowrap;
   filter: grayscale(0);
-  max-width: 450px;
+  max-width: 400px;
   border-radius: 200px;
-  margin-right: 100px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 .about__group__card--text {
@@ -366,6 +365,12 @@ footer__madeby {
   .about-me__head {
     margin: 50px;
     font-size: 2em;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about__group__card--profile {
+    max-width: 300px;
+    border-radius: 150px;
   }
 }
 @media only screen and (min-width: 576px) {
