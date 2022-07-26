@@ -168,9 +168,9 @@ footer,
   display: flex;
   flex-flow: row nowrap;
   filter: grayscale(0);
-  max-width: 400px;
-  border-radius: 200px;
+  object-fit: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 25%;
 }
 .about__group__card--text {
   max-width: 300px;
@@ -367,12 +367,6 @@ footer__madeby {
     font-size: 2em;
   }
 }
-@media only screen and (max-width: 576px) {
-  .about__group__card--profile {
-    max-width: 300px;
-    border-radius: 150px;
-  }
-}
 @media only screen and (min-width: 576px) {
   .contact__head {
     margin: 50px;
@@ -436,5 +430,35 @@ footer__madeby {
 @media only screen and (min-width: 992px) {
   .exp {
     min-height: 45vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about__group__card--profile {
+    max-width: 300px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .about__group__card--profile {
+    max-width: 300px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about__group__card--profile {
+    max-width: 350px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .about__group__card--profile {
+    max-width: 500px;
+    border-radius: 50%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about__group__card--profile {
+    max-width: 700px;
+    border-radius: 50%;
   }
 }
